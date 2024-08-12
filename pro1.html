@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="bg-container">
+            <div class="main-card d-flex flex-row justify-content-center ">
+                <h1 class="main-heading">ZF CVS QUALITY</h1>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="button" onclick="display('sectioncontent')">View More</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectioncontent">
+        <div class="cn-bg-container">
+            <h1 class="cn-main-heading">ZF CVS Quality</h1>
+
+            <div class="d-flex flex-column justify-content-center">
+                <div class=" d-flex flex-row justify-content-center">
+                    <button class="cn-heading1" onclick="display('sectionvoiceofcontainer')">Voice of customers</button>
+                    <button class="cn-heading1" onclick="display('sectionsupplierperformance')">Supplier performance</button>
+                    <button class="cn-heading1" onclick="display('sectionlocations')">Locations</button>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="cn-back" onclick="display('sectionhomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionvoiceofcontainer">
+        <div class="vc-bg-container">
+            <h1 class="vc-heading">Voice of Customers</h1>
+            <div class="vc-card-container  d-flex flex-row  ">
+                <div>
+                    <h1 class="vc-card-heading ">Tata Motors </h1>
+                </div>
+                <img src="https://www.scrapehero.com/store/wp-content/uploads/2021/06/Tata_Motors_India-416x416.png" class="vc-card-image-4" />
+            </div>
+            <div class="vc-card-container d-flex flex-row ">
+                <div>
+                    <h1 class="vc-card-heading">Dialmer India CV</h1>
+                </div>
+                <img src="https://www.pngplay.com/wp-content/uploads/3/Daimler-Logo-Transparent-File.png" class="vc-card-image" />
+            </div>
+            <div class="vc-card-container d-flex flex-row  ">
+                <div>
+                    <h1 class="vc-card-heading">Volvo Eicher CV</h1>
+                </div>
+                <img src="https://th.bing.com/th/id/OIP.wdAs4A5obfdYIOLfKnY9lwAAAA?rs=1&pid=ImgDetMain" class="vc-card-image" />
+            </div>
+            <div class="vc-card-container d-flex flex-row  ">
+                <div>
+                    <h1 class="vc-card-heading">Ashok Leyland</h1>
+                </div>
+                <img src="https://th.bing.com/th/id/OIP.NmXeJFcds8SK4nKTrwZzPgHaHk?rs=1&pid=ImgDetMain" class="vc-card-image" />
+            </div>
+            <div class="vc-card-container d-flex flex-row  ">
+                <div>
+                    <h1 class="vc-card-heading">Mahindra</h1>
+                </div>
+                <img src="https://iconape.com/wp-content/files/kv/78956/png/mahindra-mahindra-logo.png" class="vc-card-image-4" />
+            </div>
+            <button class="vc-back" onclick="display('sectioncontent')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionsupplierperformance">
+        <div class="sp-bg-container">
+            <h1 class="sp-heading">Supplier performance</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column justify-content-center">
+                    <h1 class="sp-card-1 mt-5 sp-c-1">PPM</h1>
+                    <h1 class="sp-card-1 sp-c-2">3</h1>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h1 class="sp-card-1 mt-5 sp-c-3 ">DEFECTS</h1>
+                    <h1 class="sp-card-1">4</h1>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="vc-back" onclick="display('sectioncontent')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionlocations">
+        <div class="lc-bg-container">
+            <h1 class="lc-heading">Locations</h1>
+            <h1 class="lc-locations" style="background-color:#ffffc8">Overall</h1>
+            <div class="lc-card">
+                <h1 class="lc-locations">1.Ambattur</h1>
+                <h1 class="lc-locations">2.Mahindra city</h1>
+                <h1 class="lc-locations">3.Jamshedpur</h1>
+                <h1 class="lc-locations">4.Lucknow</h1>
+                <h1 class="lc-locations">5.Pant Nager</h1>
+                <h1 class="lc-locations">6.Pune</h1>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="vc-back" onclick="display('sectioncontent')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
